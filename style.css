@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+}
+.navbar{
+    height: 350px;
+    width: 100%;
+    background-image: url(images/banner.jpg);
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.midal{
+    text-align: center;
+    text-decoration: none;
+}
+.midal a{
+    text-decoration: none;
+    font-size: medium;
+    padding: 12px;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    width: 23%;
+}
+.column{
+    width: 23%;
+    height: 400px;
+    background-size: cover;
+
+}
+
+
+
+.shop-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 40vh;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+   
+}
+.box-img{
+    height: 35vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: .50rem;
+    margin-right: .50rem ;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* About page */
+
+.about{
+    margin-top: 100px;
+    font-weight: 20;
+    margin-left: 25px;
+
+}  
+.about p{
+    margin-top: 20px;
+}
+.about h1{
+    color: brown;
+    font-size: 24px;
+}
+
+/* Contact page */
+
+.contact-us{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+ .contact-us h1{
+    margin-bottom: 12px;
+    color: brown;
+    font-size: 24px;
+} 
